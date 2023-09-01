@@ -19,6 +19,25 @@
 // Além disso, forneça um método chamado getInvoiceAmount 
 // que calcula o valor da fatura (isso é, multiplica a quantidade pelo preço por item) e depois retorna o valor.
 
+
+/***
+ * Exercise 01: 
+ * Create a class called Invoice 
+ * that can be used by a computer supply store to represent an invoice for an item sold at the store. 
+ * An invoice must include the following information as attributes
+ * 
+ * invoiced item number,
+ * item description
+ * quantity purchased of the item
+ * item's unit price
+ * 
+ * Your class must have a constructor that initializes the four attributes. 
+ * If quantity is not positive it should be set to 0. 
+ * If price per item is not positive it should be set to 0.0. 
+ * Provide a set method and a get method for each instance variable. 
+ * Also, provide a method called getInvoiceAmount that calculates the invoice amount (that is, multiplies the quantity by the price per item) and then returns the amount.
+ */
+
 class Invoice
 {
     private int $qnt;
